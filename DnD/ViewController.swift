@@ -15,12 +15,15 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    @IBAction func OncharacterTapped(_ sender: Any) {
+
+    @IBAction func OnCreation(_ sender: Any) {
+        self.performSegue(withIdentifier: "Create", sender: nil)
     }
     
-    @IBAction func Creation(_ sender: Any) {
-        performSegue(withIdentifier: "Create", sender: nil)
+    @IBAction func OnCharacters(_ sender: Any) {
+        self.performSegue(withIdentifier: "Characters", sender: nil)
     }
+    
     
     }
 

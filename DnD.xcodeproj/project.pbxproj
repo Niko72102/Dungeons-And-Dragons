@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE30461123EC8DFB00BF3E3F /* BaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE30461023EC8DFB00BF3E3F /* BaseTableViewController.swift */; };
 		AEA820DF23D8CCA500076C3A /* CharacterCreation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA820DE23D8CCA500076C3A /* CharacterCreation.swift */; };
 		AEA820E123D8CCC400076C3A /* CharacterList.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA820E023D8CCC400076C3A /* CharacterList.swift */; };
 		C468B00E23D22EF60062CC53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C468B00D23D22EF60062CC53 /* AppDelegate.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AE30461023EC8DFB00BF3E3F /* BaseTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableViewController.swift; sourceTree = "<group>"; };
 		AEA820DE23D8CCA500076C3A /* CharacterCreation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCreation.swift; sourceTree = "<group>"; };
 		AEA820E023D8CCC400076C3A /* CharacterList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterList.swift; sourceTree = "<group>"; };
 		C468B00A23D22EF60062CC53 /* DnD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DnD.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,6 +66,7 @@
 				C468B00F23D22EF60062CC53 /* SceneDelegate.swift */,
 				C468B01123D22EF60062CC53 /* ViewController.swift */,
 				C468B01323D22EF60062CC53 /* Main.storyboard */,
+				AE30461023EC8DFB00BF3E3F /* BaseTableViewController.swift */,
 				AEA820E023D8CCC400076C3A /* CharacterList.swift */,
 				AEA820DE23D8CCA500076C3A /* CharacterCreation.swift */,
 				C468B01623D22EF80062CC53 /* Assets.xcassets */,
@@ -144,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE30461123EC8DFB00BF3E3F /* BaseTableViewController.swift in Sources */,
 				AEA820DF23D8CCA500076C3A /* CharacterCreation.swift in Sources */,
 				C468B01223D22EF60062CC53 /* ViewController.swift in Sources */,
 				AEA820E123D8CCC400076C3A /* CharacterList.swift in Sources */,
