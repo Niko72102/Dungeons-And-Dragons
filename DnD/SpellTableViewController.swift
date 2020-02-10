@@ -1,5 +1,5 @@
 //
-//  BaseTableViewController.swift
+//  SpellTableViewController.swift
 //  DnD
 //
 //  Created by CHRISTOPHER VANDERGRIFF on 2/6/20.
@@ -8,9 +8,10 @@
 
 import UIKit
 
-class BaseViewController: UIViewController {
+class SpellViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
     }
+      
 }

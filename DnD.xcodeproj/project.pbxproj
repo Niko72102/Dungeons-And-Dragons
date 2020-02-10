@@ -8,8 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		AE30461123EC8DFB00BF3E3F /* BaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE30461023EC8DFB00BF3E3F /* BaseTableViewController.swift */; };
+		AE30461723EC94C200BF3E3F /* SpellTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE30461623EC94C200BF3E3F /* SpellTableViewController.swift */; };
+		AE30461923EC951B00BF3E3F /* WeaponTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE30461823EC951B00BF3E3F /* WeaponTableViewController.swift */; };
 		AEA820DF23D8CCA500076C3A /* CharacterCreation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA820DE23D8CCA500076C3A /* CharacterCreation.swift */; };
 		AEA820E123D8CCC400076C3A /* CharacterList.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA820E023D8CCC400076C3A /* CharacterList.swift */; };
+		AEBDFF1323F1D29200CC0866 /* DetailsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBDFF1223F1D29200CC0866 /* DetailsTableViewController.swift */; };
+		AEBDFF1523F1D2D100CC0866 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBDFF1423F1D2D100CC0866 /* DetailViewController.swift */; };
 		C468B00E23D22EF60062CC53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C468B00D23D22EF60062CC53 /* AppDelegate.swift */; };
 		C468B01023D22EF60062CC53 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C468B00F23D22EF60062CC53 /* SceneDelegate.swift */; };
 		C468B01223D22EF60062CC53 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C468B01123D22EF60062CC53 /* ViewController.swift */; };
@@ -20,8 +24,12 @@
 
 /* Begin PBXFileReference section */
 		AE30461023EC8DFB00BF3E3F /* BaseTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableViewController.swift; sourceTree = "<group>"; };
+		AE30461623EC94C200BF3E3F /* SpellTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpellTableViewController.swift; sourceTree = "<group>"; };
+		AE30461823EC951B00BF3E3F /* WeaponTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeaponTableViewController.swift; sourceTree = "<group>"; };
 		AEA820DE23D8CCA500076C3A /* CharacterCreation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCreation.swift; sourceTree = "<group>"; };
 		AEA820E023D8CCC400076C3A /* CharacterList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterList.swift; sourceTree = "<group>"; };
+		AEBDFF1223F1D29200CC0866 /* DetailsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsTableViewController.swift; sourceTree = "<group>"; };
+		AEBDFF1423F1D2D100CC0866 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		C468B00A23D22EF60062CC53 /* DnD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DnD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C468B00D23D22EF60062CC53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C468B00F23D22EF60062CC53 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -65,10 +73,14 @@
 				C468B00D23D22EF60062CC53 /* AppDelegate.swift */,
 				C468B00F23D22EF60062CC53 /* SceneDelegate.swift */,
 				C468B01123D22EF60062CC53 /* ViewController.swift */,
-				C468B01323D22EF60062CC53 /* Main.storyboard */,
-				AE30461023EC8DFB00BF3E3F /* BaseTableViewController.swift */,
 				AEA820E023D8CCC400076C3A /* CharacterList.swift */,
 				AEA820DE23D8CCA500076C3A /* CharacterCreation.swift */,
+				AE30461023EC8DFB00BF3E3F /* BaseTableViewController.swift */,
+				AE30461623EC94C200BF3E3F /* SpellTableViewController.swift */,
+				AE30461823EC951B00BF3E3F /* WeaponTableViewController.swift */,
+				C468B01323D22EF60062CC53 /* Main.storyboard */,
+				AEBDFF1223F1D29200CC0866 /* DetailsTableViewController.swift */,
+				AEBDFF1423F1D2D100CC0866 /* DetailViewController.swift */,
 				C468B01623D22EF80062CC53 /* Assets.xcassets */,
 				C468B01823D22EF80062CC53 /* LaunchScreen.storyboard */,
 				C468B01B23D22EF80062CC53 /* Info.plist */,
@@ -149,8 +161,12 @@
 			files = (
 				AE30461123EC8DFB00BF3E3F /* BaseTableViewController.swift in Sources */,
 				AEA820DF23D8CCA500076C3A /* CharacterCreation.swift in Sources */,
+				AE30461723EC94C200BF3E3F /* SpellTableViewController.swift in Sources */,
+				AE30461923EC951B00BF3E3F /* WeaponTableViewController.swift in Sources */,
+				AEBDFF1323F1D29200CC0866 /* DetailsTableViewController.swift in Sources */,
 				C468B01223D22EF60062CC53 /* ViewController.swift in Sources */,
 				AEA820E123D8CCC400076C3A /* CharacterList.swift in Sources */,
+				AEBDFF1523F1D2D100CC0866 /* DetailViewController.swift in Sources */,
 				C468B00E23D22EF60062CC53 /* AppDelegate.swift in Sources */,
 				C468B01023D22EF60062CC53 /* SceneDelegate.swift in Sources */,
 			);

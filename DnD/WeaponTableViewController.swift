@@ -1,5 +1,5 @@
 //
-//  BaseTableViewController.swift
+//  WeaponTableViewController.swift
 //  DnD
 //
 //  Created by CHRISTOPHER VANDERGRIFF on 2/6/20.
@@ -8,9 +8,12 @@
 
 import UIKit
 
-class BaseViewController: UIViewController {
+class WeaponViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+
+       
     }
+
 }
