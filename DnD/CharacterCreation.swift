@@ -8,8 +8,7 @@
 
 import UIKit
 
-class CharacterCreation: UIViewController {
-
+class CharacterCreation: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
     
     @IBOutlet weak var nameTextfield: UITextField!
     @IBOutlet weak var strengthTextfield: UITextField!
@@ -24,6 +23,55 @@ class CharacterCreation: UIViewController {
     @IBOutlet weak var intelligenceValueLabel: UILabel!
     @IBOutlet weak var wisdomValueLabel: UILabel!
     @IBOutlet weak var charismaValueLabel: UILabel!
+    @IBOutlet weak var RaceLabel: UILabel!
+    @IBOutlet weak var ClassLabel: UILabel!
+    let race = ["orc", "human", "elf", "dwarf"]
+    let cla33 = ["Fighter", "Wizard", "Rouge", "Druid"]
+     
+     func numberOfComponents(in pickerView: UIPickerView) -> Int
+     {
+         return 2
+     }
+     
+     func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String?
+     {
+         switch  component{
+         case 0:
+             return race[row]
+         case 1:
+             return cla33[row]
+         default:
+             return ""
+         }
+     }
+     func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int
+     {
+         switch component {
+         case 0:
+             return 4
+         case 1:
+             return 4
+         default:
+             return 0
+         }
+     }
+     
+     
+     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
+         switch component {
+         case 0:
+            RaceLabel.text = race[row]
+         case 1:
+             ClassLabel.text = cla33[row]
+         default:
+             break;
+         }
+     }
+    
+    
+    
+    
+    
     
     
     
