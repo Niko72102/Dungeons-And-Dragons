@@ -89,9 +89,6 @@ class CharacterCreation: UIViewController, UIPickerViewDelegate, UIPickerViewDat
         wisdomValueLabel.text = ""
         charismaValueLabel.text = ""
         }
-    
-    
-    
     @IBAction func randomizeCreationButtonOnTapped(_ sender: Any) {
     let strength = Int.random(in: 4 ..< 18)
         let dexterity = Int.random(in: 4 ..< 18)
