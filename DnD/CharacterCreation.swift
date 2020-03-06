@@ -11,12 +11,16 @@ import UIKit
 class CharacterCreation: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
     
     @IBOutlet weak var nameTextfield: UITextField!
-    @IBOutlet weak var strengthTextfield: UITextField!
-    @IBOutlet weak var dexterityTextfield: UITextField!
-    @IBOutlet weak var constitutionTextfield: UITextField!
-    @IBOutlet weak var intelligenceTextfield: UITextField!
-    @IBOutlet weak var wisdomTextfield: UITextField!
-    @IBOutlet weak var charismaTextfield: UITextField!
+    
+    @IBOutlet weak var strengthLabel: UILabel!
+    @IBOutlet weak var dexterityLabel: UILabel!
+    @IBOutlet weak var constitutionLabel: UILabel!
+    @IBOutlet weak var intelligenceLabel: UILabel!
+    @IBOutlet weak var wisdomLabel: UILabel!
+    @IBOutlet weak var charismaLabel: UILabel!
+    
+    
+    
     @IBOutlet weak var strengthValueLabel: UILabel!
     @IBOutlet weak var dexterityValueLabel: UILabel!
     @IBOutlet weak var constitutionValueLabel: UILabel!
@@ -25,8 +29,8 @@ class CharacterCreation: UIViewController, UIPickerViewDelegate, UIPickerViewDat
     @IBOutlet weak var charismaValueLabel: UILabel!
     @IBOutlet weak var RaceLabel: UILabel!
     @IBOutlet weak var ClassLabel: UILabel!
-    let race = ["orc", "human", "elf", "dwarf"]
-    let cla33 = ["Fighter", "Wizard", "Rouge", "Druid"]
+    let race = ["Orc", "Human", "Elf", "Dwarf", "DragonBorn", "Halfling","Half-Orc", "Aarakocra", "Genasi", "Goliath", "Aasimar", "Bugbear", "Firbolg", "Goblin", "Hobgoblin", "Kenku", "Kobold", "Lizardfolk", "Tabaxi", "Triton", "Yuan-ti Pureblood", "Tortle", "Changeling", "Kalashtar", "Shifter", "Warforged", "Gith", "Centaur", "Loxodon", "Minotaur", "Simic Hybrid", "Vedalken", "Verdan", "Locathah", "Grung"] //35 races, not including sub races
+    let classType = ["Fighter", "Wizard", "Rouge", "Druid", "Bard", "Barbarian", "Cleric", "Monk", "Paladin", "Ranger", "Warlock", "Sorcerer",] //12 classes, not including artificer
      
      func numberOfComponents(in pickerView: UIPickerView) -> Int
      {
@@ -39,7 +43,7 @@ class CharacterCreation: UIViewController, UIPickerViewDelegate, UIPickerViewDat
          case 0:
              return race[row]
          case 1:
-             return cla33[row]
+             return classType[row]
          default:
              return ""
          }
@@ -48,9 +52,9 @@ class CharacterCreation: UIViewController, UIPickerViewDelegate, UIPickerViewDat
      {
          switch component {
          case 0:
-             return 4
+             return 35
          case 1:
-             return 4
+             return 12
          default:
              return 0
          }
@@ -62,7 +66,7 @@ class CharacterCreation: UIViewController, UIPickerViewDelegate, UIPickerViewDat
          case 0:
             RaceLabel.text = race[row]
          case 1:
-             ClassLabel.text = cla33[row]
+             ClassLabel.text = classType[row]
          default:
              break;
          }
