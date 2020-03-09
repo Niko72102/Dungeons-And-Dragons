@@ -31,7 +31,9 @@ class CharacterCreation: UIViewController, UIPickerViewDelegate, UIPickerViewDat
     @IBOutlet weak var ClassLabel: UILabel!
     let race = ["Orc", "Human", "Elf", "Dwarf", "DragonBorn", "Halfling","Half-Orc", "Aarakocra", "Genasi", "Goliath", "Aasimar", "Bugbear", "Firbolg", "Goblin", "Hobgoblin", "Kenku", "Kobold", "Lizardfolk", "Tabaxi", "Triton", "Yuan-ti Pureblood", "Tortle", "Changeling", "Kalashtar", "Shifter", "Warforged", "Gith", "Centaur", "Loxodon", "Minotaur", "Simic Hybrid", "Vedalken", "Verdan", "Locathah", "Grung"] //35 races, not including sub races
     let classType = ["Fighter", "Wizard", "Rouge", "Druid", "Bard", "Barbarian", "Cleric", "Monk", "Paladin", "Ranger", "Warlock", "Sorcerer",] //12 classes, not including artificer
-     
+    var currentCharacter: PlayerCharacter!
+    
+    
      func numberOfComponents(in pickerView: UIPickerView) -> Int
      {
          return 2
@@ -65,6 +67,7 @@ class CharacterCreation: UIViewController, UIPickerViewDelegate, UIPickerViewDat
          switch component {
          case 0:
             RaceLabel.text = race[row]
+            currentCharacter.race = race[row]
          case 1:
              ClassLabel.text = classType[row]
          default:
@@ -88,6 +91,8 @@ class CharacterCreation: UIViewController, UIPickerViewDelegate, UIPickerViewDat
         intelligenceValueLabel.text = ""
         wisdomValueLabel.text = ""
         charismaValueLabel.text = ""
+        
+        currentCharacter = PlayerCharacter()
         }
     @IBAction func randomizeCreationButtonOnTapped(_ sender: Any) {
     let strength = Int.random(in: 4 ..< 18)

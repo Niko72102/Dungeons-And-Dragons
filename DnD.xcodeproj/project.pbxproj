@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE19E2082412D9CF00A64DD7 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE19E2072412D9CF00A64DD7 /* Character.swift */; };
 		AE30461123EC8DFB00BF3E3F /* BaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE30461023EC8DFB00BF3E3F /* BaseTableViewController.swift */; };
 		AE30461723EC94C200BF3E3F /* SpellTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE30461623EC94C200BF3E3F /* SpellTableViewController.swift */; };
 		AE30461923EC951B00BF3E3F /* WeaponTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE30461823EC951B00BF3E3F /* WeaponTableViewController.swift */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AE19E2072412D9CF00A64DD7 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
 		AE30461023EC8DFB00BF3E3F /* BaseTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableViewController.swift; sourceTree = "<group>"; };
 		AE30461623EC94C200BF3E3F /* SpellTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpellTableViewController.swift; sourceTree = "<group>"; };
 		AE30461823EC951B00BF3E3F /* WeaponTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeaponTableViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +56,7 @@
 		C468B00123D22EF60062CC53 = {
 			isa = PBXGroup;
 			children = (
+				AE19E2072412D9CF00A64DD7 /* Character.swift */,
 				C468B00C23D22EF60062CC53 /* DnD */,
 				C468B00B23D22EF60062CC53 /* Products */,
 			);
@@ -161,6 +164,7 @@
 			files = (
 				AE30461123EC8DFB00BF3E3F /* BaseTableViewController.swift in Sources */,
 				AEA820DF23D8CCA500076C3A /* CharacterCreation.swift in Sources */,
+				AE19E2082412D9CF00A64DD7 /* Character.swift in Sources */,
 				AE30461723EC94C200BF3E3F /* SpellTableViewController.swift in Sources */,
 				AE30461923EC951B00BF3E3F /* WeaponTableViewController.swift in Sources */,
 				AEBDFF1323F1D29200CC0866 /* DetailsTableViewController.swift in Sources */,

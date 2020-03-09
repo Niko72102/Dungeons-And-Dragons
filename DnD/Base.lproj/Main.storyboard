@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="d&amp;d+banner" translatesAutoresizingMaskIntoConstraints="NO" id="t85-FT-6Kg">
-                                <rect key="frame" x="7" y="75" width="400" height="188"/>
+                                <rect key="frame" x="7" y="74" width="400" height="188"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="csa-2u-di9">
@@ -35,7 +35,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hcD-8Y-xVJ">
-                                <rect key="frame" x="115" y="259" width="184" height="40"/>
+                                <rect key="frame" x="115" y="258" width="184" height="41"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <state key="normal" title="Create Character"/>
@@ -1161,9 +1161,9 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="yBe-yM-mAa"/>
-        <segue reference="gxR-L2-dcp"/>
+        <segue reference="AIp-ph-34f"/>
         <segue reference="6Gi-zk-1Bh"/>
-        <segue reference="Mx5-BS-sTF"/>
+        <segue reference="YfH-go-oni"/>
         <segue reference="bUQ-kf-BLw"/>
     </inferredMetricsTieBreakers>
 </document>
